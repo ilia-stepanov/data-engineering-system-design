@@ -113,7 +113,3 @@ A **lakehouse** is a unified architecture that brings **data warehouse features 
 
 * You want the flexibility of lakes with the performance of warehouses
 * You’re building a unified platform for both ML and analytics
-
----
-
-*Last updated: 2025-06-14*
