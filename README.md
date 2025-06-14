@@ -24,8 +24,8 @@ data-engineering-system-design/
 ├── concepts/                        ← Core topics (batch vs streaming, file formats, etc.)
 ├── tools_and_tech/                  ← Design implications of Airflow, Spark, Kafka, etc.
 ├── case_studies/                    ← Real-world design examples with diagrams
-├── architecture_diagrams/          ← Visual diagrams for each use case
-└── interview_questions/            ← Practice questions with answers/notes
+├── architecture_diagrams/           ← Visual diagrams for each use case
+└── interview_questions/             ← Practice questions with answers/notes
 ```
 
 ---
