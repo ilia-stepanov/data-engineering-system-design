@@ -109,7 +109,3 @@ Choose **streaming processing** when:
 
 * Data must be processed in real time
 * Use cases include alerts, real-time metrics, or transactions
-
----
-
-*Last updated: 2025-06-14*
