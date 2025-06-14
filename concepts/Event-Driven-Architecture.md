@@ -117,7 +117,3 @@ Avoid if:
 
 * Simpler batch processing is enough
 * Strict transactionality is more important than responsiveness
-
----
-
-*Last updated: 2025-06-14*
