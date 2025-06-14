@@ -68,14 +68,5 @@ data-engineering-system-design/
 * Includes common system design interview questions
 * Example answers, tradeoffs, and diagrams
 * Practice prompts for mock interviews
-
----
-
-## 👋 Stay Tuned
-
-This repository is being actively developed as part of FAANG interview prep. If you like it — **watch** and **star** the repo!
-
----
-
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/ilia-stepanov/) if you're working on similar prep or want to collaborate.
+ee to reach out via [LinkedIn](https://www.linkedin.com/in/ilia-stepanov/) if you're working on similar prep or want to collaborate.
 
