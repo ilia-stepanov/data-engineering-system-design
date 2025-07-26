@@ -61,7 +61,7 @@ You’ve been asked to design a model that:
 * You can assume you own the ETL and modeling layers
 
 
-## Answer
+## Answer 1 - Fact-Dim
 | fact_rides |
 | ----------- |
 | ride_id (PK) |
@@ -94,3 +94,6 @@ You’ve been asked to design a model that:
 | city_id (PK) |
 | city_name |
 | region |
+
+
+## Answer 2 - 3NF
