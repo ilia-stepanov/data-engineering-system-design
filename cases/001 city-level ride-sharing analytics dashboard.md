@@ -59,3 +59,38 @@ You’ve been asked to design a model that:
 * Keep the design lean and fast to implement (10 min exercise)
 * Don't overengineer — choose only the entities and relationships that support the business need
 * You can assume you own the ETL and modeling layers
+
+
+## Answer
+| fact_rides |
+| ----------- |
+| ride_id (PK) |
+| driver_id (FK) |
+| city_id (FK) |
+| date_id (FK) |
+| price_usd |
+| ride_duration_min |
+| is_canceled |
+
+
+| dim_driver |
+| ----------- |
+| driver_id (PK) |
+| name |
+| join_date |
+| rating |
+| home_city_id (FK) |
+
+| dim_date |
+| ----------- |
+| date_id (PK) |
+| full timestamp |
+| day | 
+| week |
+| month |
+
+| dim_city |
+| ----------- |
+| city_id (PK) |
+| city_name |
+| region |
