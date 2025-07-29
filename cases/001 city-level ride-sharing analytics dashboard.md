@@ -97,3 +97,6 @@ You’ve been asked to design a model that:
 
 
 ## Answer 2 - 3NF
+it is already 3 NF
+
+
