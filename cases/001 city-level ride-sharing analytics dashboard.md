@@ -99,4 +99,60 @@ You’ve been asked to design a model that:
 ## Answer 2 - 3NF
 it is already 3 NF
 
+## Answer 3 - Data Vault
+| hub_ride |
+| ----------- |
+| ride_id (PK) |
+| load_dts |
+| record_source | 
+
+
+| hub_driver |
+| ----------- |
+| date_id (PK) |
+| load_dts |
+| record_source | 
+
+| hub_user |
+| ----------- |
+| user_id (PK) |
+| load_dts |
+| record_source |
+
+
+
+| link_ride_user_driver |
+| ----------- |
+| ride_id (FK to hub_ride) |
+| user_id (FK to hub_user) |
+| driver_id (FK to hub_driver) |
+| load_dts |
+| record_source |
+
+
+| sat_ride_details |
+| ----------- |
+| ride_id (FK to hub_ride) |
+| start_time |
+| end_time |
+| status |
+| price_usd |
+| city |
+| load_dts |
+| record_source |
+
+
+| sat_driver_profile |
+| ----------- |
+| driver_id (FK to hub_driver) |
+| name |
+| join_date |
+| rating |
+| city |
+| load_dts |
+| record_source |
+
+
+
+
 
